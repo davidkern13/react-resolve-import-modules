@@ -1,68 +1,78 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React resolve import modules
 
-## Available Scripts
+In next couple of minutes, we are learn how to remove '../' from import module in ReactApp for better codding.
 
-In the project directory, you can run:
+When we develop a React app we will use the models what we create to make our project more modular and easier to develop.
 
-### `yarn start`
+But I'm sure every developer has a problem because we want to attach a module to the file we're working on, we'll have to use '../../', to access the same module in the project from hierarchy folder. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+But we can go straight to the folder name and improve our code writing!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Let's see how we do it.
 
-### `yarn test`
+First of all I use the **NPM** command to install the React project -> **npm init react-app my-app**
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Now when we have the project, I want to access webpack! But I don't see the webpack in my project! 😕
 
-### `yarn build`
+So what are we going to do?
+There is a command in a React project -> **run eject**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+run this command -> npm run eject.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**Remmember if you dont need it you dont have it!**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+after run command you get next message -> Are you sure you want to eject? This action is permanent. [y/N] 
 
-### `yarn eject`
+-> press y.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Ejecting...
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+"Running npm run eject copies all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them." [Source to read](https://github.com/satendra02/react-chrome-extension/wiki/What-happens-when-you-eject-Create-React-App)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+⛔️ *IF make the command **npm run eject** you may encounter an error * -> Remove untracked files, stash or commit any changes, and try again or check the next solutions its will help to resolve the problem.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[Check this solution for error](https://stackoverflow.com/questions/48854585/error-with-run-npm-run-eject-error-remove-untracked-files-stash-or-commit-a) <br>
+[Check another solution for error](https://github.com/facebook/create-react-app/issues/2797)
 
-## Learn More
+When you are done, you will see all the files of **webpack** in your project, under **config** folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![config](https://www.imageupload.net/upload-image/2020/02/06/kjkkjkj5.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Great you did IT! Webpack available in our project 🔥🔥😊
 
-### Code Splitting
+Now we did the magic 🎉
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+After we created the Webpack.config file, We need to take the next steps.
 
-### Analyzing the Bundle Size
+-> Open config folder <br>
+-> Find webpack.config.js  <br>
+-> Find module.exports = {
+  //...
+  resolve: {
+    // configuration options
+  }
+};
+ <br>
+ 
+![config](https://www.imageupload.net/upload-image/2020/02/06/Capturekokohh.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Read this source for better understand, [Webpack Resolve Source](https://github.com/facebook/create-react-app/issues/2797)
 
-### Making a Progressive Web App
+After we find the file all we have left is write down the name we want to use and the place of the folder.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+![config components](https://www.imageupload.net/upload-image/2020/02/06/ggbfgbf.png)
 
-### Advanced Configuration
+We created two additional components into our component folder.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+![config](https://www.imageupload.net/upload-image/2020/02/06/kgkgkg13.png)
 
-### Deployment
+Now we are test our component. i am import the ComponentA into ComponentB but without using '../', just we using in component the name what we are declarating in alias.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+![config](https://www.imageupload.net/upload-image/2020/02/06/Capturebbvbvb.png)
 
-### `yarn build` fails to minify
+Its work, my congratulations 🎉🎉🎉🎉. 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Now your code will be cleaner and more readable and more professional, you are a 🚀.
+
+Thank you,
+David Kern
