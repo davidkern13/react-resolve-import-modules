@@ -40,6 +40,11 @@
               <item name="my-app-fixed-modules" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-app-fixed-modules" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-app-fixed-modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-app-fixed-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -82,12 +87,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581015091788</updated>
-      <workItem from="1581015094553" duration="233000" />
+      <workItem from="1581015094553" duration="514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233000" />
+    <option name="totallyTimeSpent" value="514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
