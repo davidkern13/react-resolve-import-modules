@@ -72,7 +72,7 @@ Now we are test our component. i am import the ComponentA into ComponentB but wi
 
 Its work, my congratulations 🎉🎉🎉🎉. 
 
-Now your code will be cleaner and more readable and more professional, you are a 🚀.
+Now your code will be cleaner and more readable and more professional, you are a 🚀 in your imports.
 
 Thank you,
 David Kern
