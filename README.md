@@ -46,12 +46,12 @@ After we created the Webpack.config file, We need to take the next steps.
 
 -> Open config folder <br>
 -> Find webpack.config.js  <br>
--> Find module.exports = {
-  //...
-  resolve: {
-    // configuration options
-  }
-};
+-> Find module.exports = {<br>
+  //... <br>
+  resolve: { <br>
+    // configuration options <br>
+  } <br>
+}; <br>
  <br>
  
 ![config](https://www.imageupload.net/upload-image/2020/02/06/Capturekokohh.png)
