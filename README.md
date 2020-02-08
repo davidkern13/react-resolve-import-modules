@@ -66,7 +66,7 @@ We created two additional components into our component folder.
 
 ![config](https://www.imageupload.net/upload-image/2020/02/06/kgkgkg13.png)
 
-Now we are test our component. i am import the ComponentA into ComponentB but without using '../', just we using in component the name what we are declarating in alias.
+Now we are test our component. i am import the ComponentB into ComponentA but without using '../', just we using in component the name what we are declarating in alias.
 
 ![config](https://www.imageupload.net/upload-image/2020/02/08/bgnfgnfn.png)
 
