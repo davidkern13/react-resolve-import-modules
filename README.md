@@ -64,7 +64,7 @@ After we find the file all we have left is write down the name we want to use an
 
 We created two additional components into our component folder.
 
-![config](https://www.imageupload.net/upload-image/2020/02/06/kgkgkg13.png)
+![config](https://www.imageupload.net/upload-image/2020/02/08/Capturennmb.png)
 
 Now we test our component. i am import the ComponentB into ComponentA but without using '../', just we using in component the name what we are declarating in alias.
 
