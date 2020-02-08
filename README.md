@@ -1,6 +1,6 @@
 # React resolve import modules
 
-In next couple of minutes, we are learn how to remove '../' from import module in ReactApp for better codding.
+In next couple of minutes, we learn how to remove '../' from import module in ReactApp for better codding.
 
 When we develop a React app we will use the models what we create to make our project more modular and easier to develop.
 
@@ -46,12 +46,12 @@ After we created the Webpack.config file, We need to take the next steps.
 
 -> Open config folder <br>
 -> Find webpack.config.js  <br>
--> Find module.exports = {
-  //...
-  resolve: {
-    // configuration options
-  }
-};
+-> Find module.exports = {<br>
+  //... <br>
+    resolve: { <br>
+       // configuration options <br>
+    } <br>
+  }; <br>
  <br>
  
 ![config](https://www.imageupload.net/upload-image/2020/02/06/Capturekokohh.png)
@@ -60,19 +60,23 @@ Read this source for better understand, [Webpack Resolve Source](https://github.
 
 After we find the file all we have left is write down the name we want to use and the place of the folder.
 
-![config components](https://www.imageupload.net/upload-image/2020/02/06/ggbfgbf.png)
+![config components](https://www.imageupload.net/upload-image/2020/02/08/Captureklolhlkui.png)
 
 We created two additional components into our component folder.
 
-![config](https://www.imageupload.net/upload-image/2020/02/06/kgkgkg13.png)
+![config](https://www.imageupload.net/upload-image/2020/02/08/Capturennmb.png)
 
-Now we are test our component. i am import the ComponentA into ComponentB but without using '../', just we using in component the name what we are declarating in alias.
+Now we test our component. i am import the ComponentB into ComponentA but without using '../', just we using in component the name what we are declarating in alias.
 
-![config](https://www.imageupload.net/upload-image/2020/02/06/Capturebbvbvb.png)
+![config](https://www.imageupload.net/upload-image/2020/02/08/bgnfgnfn.png)
+
+Test in browser..
+
+![config](https://www.imageupload.net/upload-image/2020/02/08/workkoko.png)
 
 Its work, my congratulations 🎉🎉🎉🎉. 
 
-Now your code will be cleaner and more readable and more professional, you are a 🚀.
+Now your code will be cleaner and more readable and more professional, you are a 🚀 in your imports.
 
 Thank you,
 David Kern
