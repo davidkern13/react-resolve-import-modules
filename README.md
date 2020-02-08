@@ -1,6 +1,6 @@
 # React resolve import modules
 
-In next couple of minutes, we are learn how to remove '../' from import module in ReactApp for better codding.
+In next couple of minutes, we learn how to remove '../' from import module in ReactApp for better codding.
 
 When we develop a React app we will use the models what we create to make our project more modular and easier to develop.
 
