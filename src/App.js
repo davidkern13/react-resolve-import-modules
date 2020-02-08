@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ComponentA from 'Components/ComponentA';
+import ComponentA from 'components/ComponentA';
 
 function App() {
   return (

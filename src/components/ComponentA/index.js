@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 
-import ComponentB from 'Components/ComponentB';
+import ComponentB from 'components/ComponentB';
 
-class ComponentB extends Component{
+class ComponentA extends Component{
     render(){
         return (
             <div>
+                <p>ComponentA import </p>
                 <ComponentB />
             </div>
         )
     }
 }
 
-export default ComponentB;
+export default ComponentA;
