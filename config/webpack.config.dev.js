@@ -74,6 +74,7 @@ module.exports = {
     ],
     alias: {
       Components: path.resolve(paths.appSrc, "components/"),
+      Parent: path.resolve(paths.appSrc, "parent/child1/child2/child3"),
     },
     extensions: ['.web.js', '.mjs', '.js', '.json', '.web.jsx', '.jsx'],
     plugins: [

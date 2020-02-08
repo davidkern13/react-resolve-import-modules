@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import ComponentB from 'components/ComponentB';
+import ComponentB from 'Components/ComponentB';
+import Child3 from 'Parent';
 
 class ComponentA extends Component{
     render(){
@@ -8,6 +9,7 @@ class ComponentA extends Component{
             <div>
                 <p>ComponentA import </p>
                 <ComponentB />
+                <Child3 />
             </div>
         )
     }
