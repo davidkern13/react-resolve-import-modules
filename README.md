@@ -70,6 +70,10 @@ Now we are test our component. i am import the ComponentB into ComponentA but wi
 
 ![config](https://www.imageupload.net/upload-image/2020/02/08/bgnfgnfn.png)
 
+Test in browser..
+
+![config](https://www.imageupload.net/upload-image/2020/02/08/workkoko.png)
+
 Its work, my congratulations 🎉🎉🎉🎉. 
 
 Now your code will be cleaner and more readable and more professional, you are a 🚀 in your imports.
