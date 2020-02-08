@@ -60,7 +60,7 @@ Read this source for better understand, [Webpack Resolve Source](https://github.
 
 After we find the file all we have left is write down the name we want to use and the place of the folder.
 
-![config components](https://www.imageupload.net/upload-image/2020/02/06/ggbfgbf.png)
+![config components](https://www.imageupload.net/upload-image/2020/02/08/Captureklolhlkui.png)
 
 We created two additional components into our component folder.
 
